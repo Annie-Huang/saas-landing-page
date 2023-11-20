@@ -4,5 +4,5 @@ https://github.com/bradtraversy/saas-landing-page
 https://github.com/Annie-Huang/saas-landing-page
 
 https://fonts.google.com/specimen/Poppins?query=poppin
-
+https://cdnjs.com/      <-- search for font-awesome
 --------------------------------------------------------------------------------------
