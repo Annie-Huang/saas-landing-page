@@ -55,6 +55,12 @@ img {
 .navbar ul li a:hover {
   color: var(--primary-color);
 }
+.navbar ul li a i {
+  margin-right: 10px;
+}
+.navbar ul li:last-child a {
+  margin-left: 10px;
+}
 
 /* Utility Classes */
 .container {
