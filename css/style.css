@@ -68,3 +68,20 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: var(--light-color);
+  color: #333;
+  font-weight: 600;
+  text-decoration: none; /* I don't think we need it, button does not have underline and if it's a <a>, it got global reset to remove it already */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  opacity: 0.8;
+}
