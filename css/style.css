@@ -133,8 +133,11 @@ img {
 .pricing ul li {
   margin-bottom: 20px;
 }
-.pricing ul li a {
+.pricing ul li i {
   margin-right: 10px;
+}
+.pricing .pricing-footer {
+  margin: 30px 0;
 }
 
 /* Utility Classes */
@@ -169,6 +172,7 @@ img {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  text-align: center;
   transition: 0.5s;
 }
 .btn:hover {
