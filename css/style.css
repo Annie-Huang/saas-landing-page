@@ -112,6 +112,14 @@ img {
   font-weight: bold;
 }
 
+/* Pricing */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
 /* Utility Classes */
 .container {
   max-width: 1100px;
