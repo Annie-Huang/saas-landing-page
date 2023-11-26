@@ -119,6 +119,23 @@ img {
   gap: 30px;
   margin-top: 50px;
 }
+.pricing .pricing-card-subheading {
+  margin-bottom: 30px;
+}
+.pricing .pricing-card-price {
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc; /* suprised #ccc work great with both grey and black background */
+}
+.pricing ul {
+  margin: 30px 0;
+}
+.pricing ul li {
+  margin-bottom: 20px;
+}
+.pricing ul li a {
+  margin-right: 10px;
+}
 
 /* Utility Classes */
 .container {
