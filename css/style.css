@@ -200,3 +200,11 @@ img {
   background: black;
   color: #fff;
 }
+
+/* Card */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
