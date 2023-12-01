@@ -10,6 +10,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Case when user clicks onto the .faq-group-body, groupHeader will return null;
     if (!groupHeader) return;
 
-    console.log(groupHeader);
+    // console.log(groupHeader);
+
+    const group = groupHeader.parentElement;
+    const groupBody = group.querySelector('.faq-group-body');
+    const icon = groupHeader.querySelector('i');
+
+    // Toggle icon
+    icon.classList.toggle('fa-plus');
+    icon.classList.toggle('fa-minus');
   });
 });
