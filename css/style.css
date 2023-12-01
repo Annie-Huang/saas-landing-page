@@ -153,6 +153,9 @@ img {
   margin-bottom: 15px;
   position: relative;
 }
+.faq .faq-group .faq-group-header:hover {
+  cursor: pointer;
+}
 .faq .faq-group .faq-group-header h4 {
   font-weight: 600;
   width: 95%;
