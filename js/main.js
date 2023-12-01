@@ -19,5 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Toggle icon
     icon.classList.toggle('fa-plus');
     icon.classList.toggle('fa-minus');
+
+    // Toggle visibility of body
+    groupBody.classList.toggle('open');
   });
 });
