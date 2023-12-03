@@ -219,6 +219,16 @@ img {
   justify-content: center;
   align-items: center;
 }
+.footer .card {
+  margin: 20px 30px 30px 0;
+}
+.footer input[type='email'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+}
 
 /* Utility Classes */
 .container {
